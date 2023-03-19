@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Calendar</title>
+    <link rel="stylesheet" href="dycalendar.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="Calendar.css">
+</head>
+<body>
+    <section>
+        <div class="box">
+            <div class="container">
+                <div id="shahnawaz"></div>
+            </div>
+        </div>
+    </section>
+    <script src="dycalendar.js"></script>
+    <script>
+        dycalendar.draw({
+            target: "#shahnawaz",
+            type: "month",
+            highlighttargetdate: true,
+            prevnextbutton: "show"
+        });
+    </script>
+</body>
+</html>
